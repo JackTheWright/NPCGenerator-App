@@ -33,7 +33,7 @@ struct FlashLoadingGradient: View {
                 }
         }
         .clipShape(.rect(cornerRadii: CommonConstants.corner))
-        .padding(CommonConstants.totalEdges)
+        .padding(CommonConstants.innerEdges)
         .clipped()
         .opacity(opacity)
     }

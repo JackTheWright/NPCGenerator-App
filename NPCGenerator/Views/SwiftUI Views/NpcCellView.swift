@@ -15,7 +15,7 @@ private enum Constants {
     static let smallEdges = EdgeInsets(top: 0, leading: 16, bottom: 0, trailing: 16)
 }
 
-struct NPCCellView: View {
+struct NpcCellView: View {
     @Binding var name: String
     @Binding var race: String
     @Binding var age: String
@@ -41,12 +41,12 @@ struct NPCCellView: View {
             }.padding(EdgeInsets(Constants.edges))
             Image(systemName: "chevron.right").padding(EdgeInsets(Constants.chevronPadding))
         }.background {
-            Rectangle().fill(Color(.cyan)).clipShape(.rect(cornerRadii: Constants.corner))
-        }.padding(CommonConstants.totalEdges)
+            Rectangle().fill(Color(.white)).clipShape(.rect(cornerRadii: Constants.corner))
+        }.padding(CommonConstants.innerEdges)
     }
 }
 
-struct NPCCellSmallView: View {
+struct NpcCellSmallView: View {
     var name: String
     var body: some View {
         VStack {
@@ -59,6 +59,6 @@ struct NPCCellSmallView: View {
 }
 
 #Preview {
-    return NPCCellSmallView(name: "lollers")
+    return NpcCellSmallView(name: "lollers")
 }
 

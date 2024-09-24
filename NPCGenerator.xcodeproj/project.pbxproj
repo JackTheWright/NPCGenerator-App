@@ -18,11 +18,21 @@
 		04A6EF542C9B994400B4CDEF /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 04A6EF532C9B994400B4CDEF /* Alamofire */; };
 		04A6EF5C2C9B99C100B4CDEF /* NpcDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A6EF5B2C9B99C100B4CDEF /* NpcDetails.swift */; };
 		04A6EF602C9BC02C00B4CDEF /* GeneratorVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A6EF5F2C9BC02C00B4CDEF /* GeneratorVM.swift */; };
-		04A6EF622C9BE11E00B4CDEF /* NPCCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A6EF612C9BE11E00B4CDEF /* NPCCellView.swift */; };
+		04A6EF622C9BE11E00B4CDEF /* NpcCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A6EF612C9BE11E00B4CDEF /* NpcCellView.swift */; };
 		04A6EF642C9CF9B900B4CDEF /* FlashLoadingGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A6EF632C9CF9B900B4CDEF /* FlashLoadingGradientView.swift */; };
 		04A6EF662C9D4FC400B4CDEF /* EmptyViewForNpc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A6EF652C9D4FC400B4CDEF /* EmptyViewForNpc.swift */; };
 		04A6EF692C9D501B00B4CDEF /* CommonConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A6EF682C9D501B00B4CDEF /* CommonConstants.swift */; };
-		04A6EF6B2C9E0C0300B4CDEF /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A6EF6A2C9E0C0300B4CDEF /* File.swift */; };
+		04A6EF6B2C9E0C0300B4CDEF /* Race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A6EF6A2C9E0C0300B4CDEF /* Race.swift */; };
+		04A6EF6D2C9E573B00B4CDEF /* AllCharactersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A6EF6C2C9E573B00B4CDEF /* AllCharactersVC.swift */; };
+		04A6EF702CA0A0D000B4CDEF /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 04A6EF6F2CA0A0D000B4CDEF /* RxSwift */; };
+		04A6EF732CA0A29C00B4CDEF /* Differentiator in Frameworks */ = {isa = PBXBuildFile; productRef = 04A6EF722CA0A29C00B4CDEF /* Differentiator */; };
+		04A6EF752CA0A29C00B4CDEF /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = 04A6EF742CA0A29C00B4CDEF /* RxDataSources */; };
+		04A6EF772CA0A40A00B4CDEF /* AllCharactersVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A6EF762CA0A40A00B4CDEF /* AllCharactersVM.swift */; };
+		04A6EF7A2CA0A4C200B4CDEF /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 04A6EF792CA0A4C200B4CDEF /* Swinject */; };
+		04A6EF7E2CA0AC8E00B4CDEF /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A6EF7D2CA0AC8E00B4CDEF /* DependencyContainer.swift */; };
+		04A6EF802CA0ACD800B4CDEF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A6EF7F2CA0ACD800B4CDEF /* NetworkManager.swift */; };
+		04A6EF852CA0E8D100B4CDEF /* FullNpcCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A6EF842CA0E8D100B4CDEF /* FullNpcCell.swift */; };
+		04A6EF882CA0F21400B4CDEF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A6EF872CA0F21400B4CDEF /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,11 +80,17 @@
 		04A6EF502C9B991300B4CDEF /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		04A6EF5B2C9B99C100B4CDEF /* NpcDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NpcDetails.swift; sourceTree = "<group>"; };
 		04A6EF5F2C9BC02C00B4CDEF /* GeneratorVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratorVM.swift; sourceTree = "<group>"; };
-		04A6EF612C9BE11E00B4CDEF /* NPCCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPCCellView.swift; sourceTree = "<group>"; };
+		04A6EF612C9BE11E00B4CDEF /* NpcCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NpcCellView.swift; sourceTree = "<group>"; };
 		04A6EF632C9CF9B900B4CDEF /* FlashLoadingGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashLoadingGradientView.swift; sourceTree = "<group>"; };
 		04A6EF652C9D4FC400B4CDEF /* EmptyViewForNpc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewForNpc.swift; sourceTree = "<group>"; };
 		04A6EF682C9D501B00B4CDEF /* CommonConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonConstants.swift; sourceTree = "<group>"; };
-		04A6EF6A2C9E0C0300B4CDEF /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		04A6EF6A2C9E0C0300B4CDEF /* Race.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Race.swift; sourceTree = "<group>"; };
+		04A6EF6C2C9E573B00B4CDEF /* AllCharactersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCharactersVC.swift; sourceTree = "<group>"; };
+		04A6EF762CA0A40A00B4CDEF /* AllCharactersVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCharactersVM.swift; sourceTree = "<group>"; };
+		04A6EF7D2CA0AC8E00B4CDEF /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
+		04A6EF7F2CA0ACD800B4CDEF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		04A6EF842CA0E8D100B4CDEF /* FullNpcCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullNpcCell.swift; sourceTree = "<group>"; };
+		04A6EF872CA0F21400B4CDEF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +98,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A6EF702CA0A0D000B4CDEF /* RxSwift in Frameworks */,
+				04A6EF7A2CA0A4C200B4CDEF /* Swinject in Frameworks */,
+				04A6EF752CA0A29C00B4CDEF /* RxDataSources in Frameworks */,
+				04A6EF732CA0A29C00B4CDEF /* Differentiator in Frameworks */,
 				04A6EF542C9B994400B4CDEF /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -127,6 +147,7 @@
 		04A6EF212C9B881800B4CDEF /* NPCGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				04A6EF862CA0F20700B4CDEF /* Extensions */,
 				04A6EF672C9D500F00B4CDEF /* Enums */,
 				04A6EF5E2C9BBDD200B4CDEF /* Viewmodels */,
 				04A6EF5D2C9BBDCD00B4CDEF /* Views */,
@@ -169,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				04A6EF502C9B991300B4CDEF /* NetworkService.swift */,
+				04A6EF7D2CA0AC8E00B4CDEF /* DependencyContainer.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -176,6 +198,7 @@
 		04A6EF4E2C9B951600B4CDEF /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				04A6EF7F2CA0ACD800B4CDEF /* NetworkManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -198,11 +221,9 @@
 		04A6EF5D2C9BBDCD00B4CDEF /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				04A6EF222C9B881800B4CDEF /* NPCGeneratorApp.swift */,
-				04A6EF242C9B881800B4CDEF /* GeneratorView.swift */,
-				04A6EF612C9BE11E00B4CDEF /* NPCCellView.swift */,
-				04A6EF632C9CF9B900B4CDEF /* FlashLoadingGradientView.swift */,
-				04A6EF652C9D4FC400B4CDEF /* EmptyViewForNpc.swift */,
+				04A6EF832CA0E89800B4CDEF /* SwiftUI Views */,
+				04A6EF822CA0E87400B4CDEF /* Cells */,
+				04A6EF812CA0E86A00B4CDEF /* View Controllers */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -211,6 +232,7 @@
 			isa = PBXGroup;
 			children = (
 				04A6EF5F2C9BC02C00B4CDEF /* GeneratorVM.swift */,
+				04A6EF762CA0A40A00B4CDEF /* AllCharactersVM.swift */,
 			);
 			path = Viewmodels;
 			sourceTree = "<group>";
@@ -219,9 +241,45 @@
 			isa = PBXGroup;
 			children = (
 				04A6EF682C9D501B00B4CDEF /* CommonConstants.swift */,
-				04A6EF6A2C9E0C0300B4CDEF /* File.swift */,
+				04A6EF6A2C9E0C0300B4CDEF /* Race.swift */,
 			);
 			path = Enums;
+			sourceTree = "<group>";
+		};
+		04A6EF812CA0E86A00B4CDEF /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04A6EF6C2C9E573B00B4CDEF /* AllCharactersVC.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		04A6EF822CA0E87400B4CDEF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				04A6EF842CA0E8D100B4CDEF /* FullNpcCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		04A6EF832CA0E89800B4CDEF /* SwiftUI Views */ = {
+			isa = PBXGroup;
+			children = (
+				04A6EF222C9B881800B4CDEF /* NPCGeneratorApp.swift */,
+				04A6EF632C9CF9B900B4CDEF /* FlashLoadingGradientView.swift */,
+				04A6EF652C9D4FC400B4CDEF /* EmptyViewForNpc.swift */,
+				04A6EF612C9BE11E00B4CDEF /* NpcCellView.swift */,
+				04A6EF242C9B881800B4CDEF /* GeneratorView.swift */,
+			);
+			path = "SwiftUI Views";
+			sourceTree = "<group>";
+		};
+		04A6EF862CA0F20700B4CDEF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				04A6EF872CA0F21400B4CDEF /* Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +301,10 @@
 			name = NPCGenerator;
 			packageProductDependencies = (
 				04A6EF532C9B994400B4CDEF /* Alamofire */,
+				04A6EF6F2CA0A0D000B4CDEF /* RxSwift */,
+				04A6EF722CA0A29C00B4CDEF /* Differentiator */,
+				04A6EF742CA0A29C00B4CDEF /* RxDataSources */,
+				04A6EF792CA0A4C200B4CDEF /* Swinject */,
 			);
 			productName = NPCGenerator;
 			productReference = 04A6EF1F2C9B881800B4CDEF /* NPCGenerator.app */;
@@ -318,6 +380,9 @@
 			mainGroup = 04A6EF162C9B881800B4CDEF;
 			packageReferences = (
 				04A6EF4F2C9B968C00B4CDEF /* XCRemoteSwiftPackageReference "Alamofire" */,
+				04A6EF6E2CA0A0D000B4CDEF /* XCRemoteSwiftPackageReference "RxSwift" */,
+				04A6EF712CA0A29C00B4CDEF /* XCRemoteSwiftPackageReference "RxDataSources" */,
+				04A6EF782CA0A4C200B4CDEF /* XCRemoteSwiftPackageReference "Swinject" */,
 			);
 			productRefGroup = 04A6EF202C9B881800B4CDEF /* Products */;
 			projectDirPath = "";
@@ -361,14 +426,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04A6EF622C9BE11E00B4CDEF /* NPCCellView.swift in Sources */,
+				04A6EF882CA0F21400B4CDEF /* Extensions.swift in Sources */,
+				04A6EF622C9BE11E00B4CDEF /* NpcCellView.swift in Sources */,
 				04A6EF642C9CF9B900B4CDEF /* FlashLoadingGradientView.swift in Sources */,
 				04A6EF662C9D4FC400B4CDEF /* EmptyViewForNpc.swift in Sources */,
 				04A6EF252C9B881800B4CDEF /* GeneratorView.swift in Sources */,
+				04A6EF852CA0E8D100B4CDEF /* FullNpcCell.swift in Sources */,
 				04A6EF692C9D501B00B4CDEF /* CommonConstants.swift in Sources */,
-				04A6EF6B2C9E0C0300B4CDEF /* File.swift in Sources */,
+				04A6EF6B2C9E0C0300B4CDEF /* Race.swift in Sources */,
+				04A6EF7E2CA0AC8E00B4CDEF /* DependencyContainer.swift in Sources */,
 				04A6EF512C9B991300B4CDEF /* NetworkService.swift in Sources */,
 				04A6EF5C2C9B99C100B4CDEF /* NpcDetails.swift in Sources */,
+				04A6EF772CA0A40A00B4CDEF /* AllCharactersVM.swift in Sources */,
+				04A6EF802CA0ACD800B4CDEF /* NetworkManager.swift in Sources */,
+				04A6EF6D2C9E573B00B4CDEF /* AllCharactersVC.swift in Sources */,
 				04A6EF232C9B881800B4CDEF /* NPCGeneratorApp.swift in Sources */,
 				04A6EF602C9BC02C00B4CDEF /* GeneratorVM.swift in Sources */,
 			);
@@ -739,6 +810,30 @@
 				minimumVersion = 5.9.1;
 			};
 		};
+		04A6EF6E2CA0A0D000B4CDEF /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.7.1;
+			};
+		};
+		04A6EF712CA0A29C00B4CDEF /* XCRemoteSwiftPackageReference "RxDataSources" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxDataSources";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.2;
+			};
+		};
+		04A6EF782CA0A4C200B4CDEF /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.9.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -746,6 +841,26 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 04A6EF4F2C9B968C00B4CDEF /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		04A6EF6F2CA0A0D000B4CDEF /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04A6EF6E2CA0A0D000B4CDEF /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		04A6EF722CA0A29C00B4CDEF /* Differentiator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04A6EF712CA0A29C00B4CDEF /* XCRemoteSwiftPackageReference "RxDataSources" */;
+			productName = Differentiator;
+		};
+		04A6EF742CA0A29C00B4CDEF /* RxDataSources */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04A6EF712CA0A29C00B4CDEF /* XCRemoteSwiftPackageReference "RxDataSources" */;
+			productName = RxDataSources;
+		};
+		04A6EF792CA0A4C200B4CDEF /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04A6EF782CA0A4C200B4CDEF /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

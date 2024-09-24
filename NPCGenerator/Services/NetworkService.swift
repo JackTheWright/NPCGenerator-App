@@ -11,10 +11,11 @@ import Alamofire
 
 private enum Constants {
     // I know this is insecure, but it is just for project purposes.
-    static let URL = "http://192.168.1.100:8080"
+    static let URL = "http://127.0.0.1:8080"
 }
 
 class NetworkService {
+    static let shared = NetworkService()
     @Published var mostRecentNPC: NpcDetails?
     @Published var error: Bool = false
 
@@ -28,11 +29,8 @@ class NetworkService {
             }
     }
 
-    func getNPCByID(id: Int) {
+    func getNPCByID(id: Int) -> DataRequest {
         AF.request("\(Constants.URL)\(API.getNPCByID(id: id).endpoint)")
-            .responseDecodable(of: NpcDetails.self) { response in
-                debugPrint("Response: \(response)")
-            }
     }
 
     func editNPC(npc: NpcDetails) throws {
@@ -71,6 +69,14 @@ class NetworkService {
                 self.error = true
             }
         }
+    }
+
+    func getAllNPCs(offset: Int, pageSize: Int) -> DataRequest {
+        let params: Parameters = [
+            "offset": offset,
+            "pageSize": pageSize
+        ]
+        return AF.request("\(Constants.URL)\(API.getNPCs.endpoint)", parameters: params)
     }
 }
 

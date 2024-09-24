@@ -15,7 +15,7 @@ struct EmptyViewForNpc: View {
         GeometryReader { geometry in
             ZStack {
                 Rectangle()
-                    .fill(forError ? Color(.red) : Color(.cyan))
+                    .fill(forError ? Color(.red) : Color(.white))
                     .frame(width: geometry.size.width, height: geometry.size.height)
                 Text(forError ? "An error has occured... Please try again" : "Tap the generate button to create your first NPC")
                     .fontWeight(.semibold)
@@ -24,7 +24,7 @@ struct EmptyViewForNpc: View {
             }
         }
         .clipShape(.rect(cornerRadii: CommonConstants.corner))
-        .padding(CommonConstants.totalEdges)
+        .padding(CommonConstants.innerEdges)
         .clipped()
         .opacity(opacity)
     }
